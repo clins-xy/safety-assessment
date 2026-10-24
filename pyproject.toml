@@ -1,0 +1,19 @@
+[project]
+name = "safety-assessment"
+version = "0.1.0"
+description = "Source code security assessment system"
+authors = [
+    { name = "clins", email = "2984226707@qq.com" }
+]
+requires-python = ">=3.12"
+dependencies = ["fastapi>=0.115,<1", "uvicorn>=0.30,<1", "psutil>=6,<8", "pymysql>=1.1,<2", "cryptography>=43", "python-dotenv>=1,<2", "websockets>=14,<17", "httpx>=0.27,<1", "python-multipart>=0.0.20,<1"]
+
+[project.scripts]
+safety-assessment = "safety_assessment:main"
+
+[build-system]
+requires = ["uv_build>=0.12.0,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = ["pytest>=8,<10"]

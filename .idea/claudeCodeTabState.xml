@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ClaudeCodeTabState">
+    <option name="tabSessions">
+      <map>
+        <entry key="0">
+          <value>
+            <TabSessionState>
+              <option name="projectPath" value="E:\learn\safety-assessment" />
+              <option name="provider" value="codex" />
+              <option name="sessionId" value="01a15e41-4b94-72b2-a636-e22aecc26bb2" />
+              <option name="cwd" value="E:\learn\safety-assessment" />
+              <option name="model" value="gpt-6-luna" />
+              <option name="permissionMode" value="default" />
+            </TabSessionState>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
